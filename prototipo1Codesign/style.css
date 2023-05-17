@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url(https://i.imgur.com/URn38fT.gif);
+  background-repeat:repeat;
+}
+#dogpresent{
+  display: flex;
+  justify-content: flex-end;
+  -webkit-text-fill-color: white;
+}
+#presenttext{
+    background: #7e57c2;
+    font-family: 'open sans';
+    font-size: 2vmin;
+    line-height: 1.6em;  
+    border-radius: 15px;
+    width: 20%;
+    height: 20%;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 30%;
+    overflow-x: hidden;
+}
+#testedoisra{
+  margin-top: 15%;
+  display:flex;
+  -webkit-text-fill-color: red;
+  justify-content: center;
+  text-emphasis-color: red;
+}
+#meteoros{
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+}
+#meteoros img {
+  margin: 0 20%;
+}
+#botaotrilhas{
+  margin-left:10%;
+  background-color: transparent;
+  border-color: transparent;
+}
+#botaoegressos{
+  margin-left:20%;
+  background-color: transparent;
+  border-color: transparent;
+}
+#botaoprojetos{
+  margin-left:20%;
+  background-color: transparent;
+  border-color: transparent;
+}
+#trilhas{
+  margin-top:25%;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  -webkit-text-fill-color: white;
+}
+#trilhas img{
+  margin-left: 35%;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  margin-top: 10%;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 50%; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: blueviolet; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+

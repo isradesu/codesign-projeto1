@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+body{
+    background-image: url("source/fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+    background-color: #10083D;
+    
+
+  }
+
+button{
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+    background: none;
+    border: none;
+}
+#coruja, #coruja img{
+    display: block;
+
+    height: 20%;
+    width: 20%;
+    margin-left: 25%;
+    
+}
+
+
+.front{
+    display: block;
+}
+
+.top{
+}
+
+#sapo img, #sapo{
+    margin-top: 20%;
+    margin-left: 35%;
+    height: 35%;
+    width: 35%;
+}
+
+#vagalume img, #vagalume{
+    margin-left: 60%;
+    margin-top: 10% ;
+    height: 20%;
+    width: 20%;
+}
+
+.balao{
+    background: #7e57c2;
+    font-family: 'open sans';
+    font-size: 1.6vmin;
+    line-height: 1.6em;  
+    border-radius: 15px;
+    width: 20%;
+    height: 20%;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-top: -10%;
+    margin-left: 30%;
+    overflow-x: hidden;
+    
+}
+
