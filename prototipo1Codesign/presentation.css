@@ -1,80 +1,55 @@
 *{
     margin: 0;
     padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
 }
 
-html {
-    height: 100%;
-    width: 100%;
-  }
+html{
+    --black: #0D114F;
+    --white: #FAFAFA;
+    --red: #E83F5B;
+    --light-blue: #E0ECFF;
+    --blue: #3485FF;
+    --background: #F6FAFF;
+    --overlay: #040911;
+    --icons-details: #A5B0C1;
+
+    --grey-dark: #4D5E77;
+    --grey-blue: #A1B2CD;
+    --grey-light: #E5EAF1;
+    --grey-medium: #eaecf2;
+
+    /* 1rem = 16px (User Agent) = 100% (User Agent) */
+    font-size: 62.5% /* 10px */
+
+}
 
 body{
-    background-image: url("source/fundo.png");
+    height: 12000px;
+    background-image: url(source/fundo_vertical.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-size: 100%;
-    background-color: #10083D;
-    
+}
 
+
+
+.balao {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 40rem;
+
+    margin-left: 52%;
+    margin-top: 30%;
   }
-
-button{
-    height: 134px;
-    padding: 0;
+  
+.balao p {
     margin: 0;
-    vertical-align: top;
-    width: 104px;
-    background: none;
-    border: none;
-}
-.top #coruja, #coruja img{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 4;
-
-    height: 4rem;
-    width: 4rem;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
 }
 
-
-
-.top{
-    display: grid;
-    
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4,1fr)
-}
-
-#sapo img, #sapo{
-    margin-top: 20%;
-    margin-left: 35%;
-    height: 35%;
-    width: 35%;
-}
-
-#vagalume img, #vagalume{
-    margin-left: 60%;
-    margin-top: 10% ;
-    height: 20%;
-    width: 20%;
-}
-
-.balao{
-    background: #7e57c2;
-    font-family: 'open sans';
-    font-size: 1.6vmin;
-    line-height: 1.6em;  
-    border-radius: 15px;
-    width: 20%;
-    height: 20%;
-    color: #fff;
-    padding: 20px;
-    position: relative;
-    margin-top: -10%;
-    margin-left: 30%;
-    overflow-x: hidden;
-    
-}
 
