@@ -27,7 +27,7 @@ body{
     overflow-x: hidden;
 }
 #testedoisra{
-  margin-top: 15%;
+  margin-top: 5%;
   display:flex;
   -webkit-text-fill-color: red;
   justify-content: center;
@@ -71,7 +71,7 @@ body{
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   margin-top: 10%;
-  bottom: 20px; /* Place the button at the bottom of the page */
+  bottom: 10px; /* Place the button at the bottom of the page */
   right: 50%; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
@@ -86,5 +86,10 @@ body{
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+footer {
+  background-color: transparent;
+  padding: 25px;
+  text-align: center;
 }
 
