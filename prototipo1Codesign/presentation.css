@@ -26,54 +26,27 @@ html{
     font-size: 62.5%; /* 10px */
     scroll-behavior: smooth;
 
+
 }
 
 body{
-   
-    /*background-image: url(source/fundo_vertical.png);
-    background-size: contain 100%;
+    background-image: url(source/fundo_vertical.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 0;*/
-    
     
 
+
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 130rem);
-    width: 100%;
-    margin: 0 auto;
+.grid{
+    min-height: 5357px;
 }
 
-.fundo{
-    grid-column: 1 / 6;
-}
+
+
 
 
 .balao {
-    grid-column: 2/-1;
-    overflow: hidden;
     background-color: #f2f2f2;
     border-radius: 10px;
-    padding: 2rem;
-    max-width: 40rem;
-    height: 18rem;
-
-    margin-left: 50%;
-  }
-  
-.balao p {
-    position: absolute;
-    overflow: hidden;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 6rem;
-}
-
-.fundo, .balao{
-    grid-row: 1/2;
-}
-
 
