@@ -30,7 +30,7 @@ html{
 }
 
 body{
-    background-image: url(source/fundo_vertical.png);
+    background-image: url(source/fundo_verticall.png);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -39,8 +39,16 @@ body{
 }
 
 .grid{
-    min-height: 5357px;
+    min-height: 400vw;
+    min-width: 98vw;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(32, 1fr);
 }
+
+/*alinhar elemento no centro da celula
+align-items: center;*/
 
 
 
