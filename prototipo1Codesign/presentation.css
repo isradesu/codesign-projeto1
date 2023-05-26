@@ -8,19 +8,7 @@
 }
 
 html{
-    --black: #0D114F;
-    --white: #FAFAFA;
-    --red: #E83F5B;
-    --light-blue: #E0ECFF;
-    --blue: #3485FF;
-    --background: #F6FAFF;
-    --overlay: #040911;
-    --icons-details: #A5B0C1;
-
-    --grey-dark: #4D5E77;
-    --grey-blue: #A1B2CD;
-    --grey-light: #E5EAF1;
-    --grey-medium: #eaecf2;
+    --grey: #636363;
 
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
     font-size: 62.5%; /* 10px */
@@ -44,43 +32,54 @@ body{
     min-width: 98vw;
 
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 8.22vw);
     grid-template-rows: repeat(32, 1fr);
 }
 
 #cachorro{
-    grid-column-start: 7;
-    grid-column-end: 9;
+    grid-column-start: 8;
+    grid-column-end: 10;
     grid-row-start: 1;
     grid-row-end: 4;
+    margin-top: 8.22vw;
+    margin-left: 1.17vw;
     
 }
 
-#cachorro img{
+#cachorro > img{
     min-width: 22.1vw;
     max-width: 22.1vw;
-    margin-top: 8.22vw;
-    margin-left: 1.17vw;
+    
 }
 
 /*alinhar elemento no centro da celula
 align-items: center;*/
 
 #balao{
-    grid-column-start: 6;
-    grid-column-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 2;
     align-items: center;
+    margin-top: -3vw;
+    margin-left: 4.2vw;
+    height: 12.5vw;
 
 }
 
 #balao > img{
-    margin-top: -3vw;
-    margin-left: 3vw;
     width: 21vw;
 }
 
+#arrow{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    margin-left: 5.2vw; /*REVISAR ESSE MARGIN*/
+}
 
-
+#arrow > img{
+    width: 6.02vw;
+}
 
