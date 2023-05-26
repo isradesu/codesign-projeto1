@@ -20,4 +20,7 @@ Mostrar alguns egressos do curso, as profissões que eles exercem hoje em dia e 
 
 As tecnologias utilizadas são HTML5, CSS3, JavaScript, o framework p5.js para implementar animações e o Figma para prototipação de interfaces.
 
-As funções a serem implementadas no futuro são: filtragem de projetos por trilha e animações em p5.js. No momento atual estamos fazendo a parte Front-End do projeto e passando as telas do Figma para o HTML.
+As funções a serem implementadas no futuro são: filtragem de projetos por trilha e animações em p5.js. 
+
+26/05/2023
+No momento atual estamos fazendo a parte Front-End do projeto e passando as telas do Figma para o HTML.
