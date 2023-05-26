@@ -22,9 +22,6 @@ body{
     background-image: url(source/fundo_verticall.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
-
-
 }
 
 .grid{
@@ -42,8 +39,7 @@ body{
     grid-row-start: 1;
     grid-row-end: 4;
     margin-top: 8.22vw;
-    margin-left: 1.17vw;
-    
+    margin-left: 1.17vw;   
 }
 
 #cachorro > img{
@@ -64,7 +60,6 @@ align-items: center;*/
     margin-top: -3vw;
     margin-left: 4.2vw;
     height: 12.5vw;
-
 }
 
 #balao > img{
@@ -82,4 +77,3 @@ align-items: center;*/
 #arrow > img{
     width: 6.02vw;
 }
-
