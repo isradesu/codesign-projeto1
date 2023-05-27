@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+html{
+    --white: #E9E9E9;
+}
+
+body{
+    background-color: var(--white);
+}
+
+.gridprojetos{
+    min-width: 98vw;
+    
+    display: grid;
+    grid-template-columns: 7.2vw 18.38vw 3.37vw 18.38vw 3.37vw 18.38vw 3.37vw 18.38vw 7.2vw;
+    
+}  
