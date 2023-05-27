@@ -79,3 +79,12 @@ body{
     margin-left: 5.97vw;
     margin-top: 2.50vw;
 }
+#botaovoltar{
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
