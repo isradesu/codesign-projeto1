@@ -30,15 +30,47 @@ body{
 }
 
 .header{
-    width: 83.76vw;
+    width: 83.81vw;
+    height: 16.74vw;
 }
 
 .bloco1{
-    width: 7.04vw;
+    width: 7.15vw;
     height: 16.74vw;
 }
 
 .bloco2{
     width: 7.04vw;
     height: 100vh;
+}
+
+.bloco3{
+    width: 7.15vw;
+    height: 100vh;
+}
+
+.main{
+    width: 83.81vw;
+    height: 100vh;
+}
+
+.main > .nav{
+    width: 83.81vw;
+    height: 3.68vw;
+}
+
+.main > .content{
+    width: 83.81vw;
+    height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content > img{
+    width: 18.38vw;
+    padding-bottom: 3.37vw;
+    
 }
