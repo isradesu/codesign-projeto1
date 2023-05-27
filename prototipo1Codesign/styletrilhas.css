@@ -48,6 +48,7 @@ body{
     
 }
 #balaotrilhas{
+    font-family: 'Montserrat', sans-serif;
     grid-column-start: 2;
     grid-column-end: 7;
     grid-row-start: 2;
@@ -61,8 +62,20 @@ body{
     width: 38.69vw;
 }
 #balaotrilhas > h1{
-    margin-left: 3.8vw;
+    font-size: 3.88vw;
+    margin-left: 7.86vw;
+    margin-top: -24.35vw;
+    padding-bottom: 3.27vw;
+    font-weight: 600;
 }
 #balaotrilhas > p{
+    font-size: 1.63vw;
+    width: 30.83vw;
+    text-align: left;
+    margin-left: 3.27vw;
+}
 
+#balaotrilhas > #select{
+    margin-left: 5.97vw;
+    margin-top: 2.50vw;
 }
