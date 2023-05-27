@@ -141,11 +141,19 @@ align-items: center;*/
     grid-column-start: 5; 
     grid-row-start: 29;
     margin-top: 4.2vw;
-
+    width: 3.98vw;
+    height: 5.72vw;
 }
 
-#corujacol4row29 > img{
+#botaotrilhas > img{
     width: 3.98vw;
+    
+}
+
+#botaotrilhas{
+    width: 3.98vw;
+    height: 5.72vw;
+    background-color: transparent;
 }
 
 #cachorrocol8row33{
@@ -170,7 +178,4 @@ align-items: center;*/
 
 #sapocol10row31 > img{
     width: 6.28vw;
-}
-#botaotrilhas{
-    background-color: transparent;
 }
