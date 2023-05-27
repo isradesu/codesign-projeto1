@@ -136,3 +136,14 @@ align-items: center;*/
 #textorow16col2 > p{
     font-size: 1.84vw;
 }
+
+#corujacol4row29{
+    grid-column-start: 5; 
+    grid-row-start: 29;
+    margin-top: 4.2vw;
+
+}
+
+#corujacol4row29 > img{
+    width: 3.98vw;
+}
