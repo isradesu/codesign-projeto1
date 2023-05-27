@@ -8,7 +8,7 @@
 }
 
 html{
-    --grey: #636363;
+    --grey: #404040;
 
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
     font-size: 62.5%; /* 10px */
@@ -60,10 +60,21 @@ align-items: center;*/
     margin-top: -3vw;
     margin-left: 4.2vw;
     height: 12.5vw;
+    width: 21vw;
 }
 
 #balao > img{
     width: 21vw;
+}
+
+#balao > p{
+    color: black;
+    max-width: 18.02vw;
+    min-width: 18.02vw;
+    margin-top: -9.5vw;
+    margin-left: 1vw;
+    font-size: 1.63vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #arrow{
@@ -76,4 +87,52 @@ align-items: center;*/
 
 #arrow > img{
     width: 6.02vw;
+}
+
+#textorow7col2{
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    width: 49vw;
+    height: 9.39vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#textorow7col2 > p{
+    font-size: 1.84vw;
+}
+
+#textorow7col2 > p > span{
+    font-size: 3.57vw
+}
+
+#textorow12col6{
+    color: white;
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end: 12;
+    font-family: 'Montserrat', sans-serif;
+    width: 49.97vw;
+}
+
+#textorow12col6 > p{
+    font-size: 1.84vw;
+}
+
+#textorow16col2{
+    color: var(--grey);
+    grid-column-start: 2;
+    grid-column-end: 9;
+    grid-row-start: 16;
+    grid-row-end: 16;
+    font-family: 'Montserrat', sans-serif;
+    width: 51.81vw;
+}
+
+#textorow16col2 > p{
+    font-size: 1.84vw;
 }
