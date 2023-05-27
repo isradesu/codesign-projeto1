@@ -25,7 +25,7 @@ body{
 }
 
 .grid{
-    min-height: 400vw;
+    min-height: 392vw;
     min-width: 98vw;
 
     display: grid;
@@ -146,4 +146,28 @@ align-items: center;*/
 
 #corujacol4row29 > img{
     width: 3.98vw;
+}
+
+#cachorrocol8row33{
+    grid-column-start: 8;
+    grid-row-start: 31;
+    width: 5.61vw;
+    height: 7.66vw;
+    margin-top: 4.8vw;
+}
+
+#cachorrocol8row33 > img{
+    width: 5.61vw;
+}
+
+#sapocol10row31{
+    grid-column-start: 10;
+    grid-row-start: 31;
+    margin-left: 2.5vw;
+    margin-top: 1.8vw;
+    width: 6.28vw;
+}
+
+#sapocol10row31 > img{
+    width: 6.28vw;
 }
