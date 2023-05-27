@@ -18,20 +18,36 @@ html{
 /*1920px = 98vw
 SEMPRE USAR VW, usando calc de regra de 3*/
 body{
-    background-color: white;
+    background-image: url("https://i.imgur.com/LY3vR2n.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+#corujatrilhas{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-top: 12vw;
+    margin-left: 1.17vw; 
 }
 #corujatrilhas > img{
     min-width: 22.1vw;
     max-width: 22.1vw;
     
 }
+#balaotrilhas{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-items: center;
+    margin-top: -3vw;
+    margin-left: 3.8vw;
+    height: 12.5vw;
+}
 .gridtrilhas{
-    min-height: 400vw;
     min-width: 98vw;
 
     display: grid;
     grid-template-columns: repeat(12, 8.22vw);
-    grid-template-rows: repeat(32, 1fr);
 }
