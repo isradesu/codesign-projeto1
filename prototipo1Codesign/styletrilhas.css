@@ -45,9 +45,21 @@ body{
     margin-left: 3.8vw;
     height: 12.5vw;
 }
+#balaotrilhas > h1{
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-left: 3.8vw;
+}
+#balaotrilhas > p{
+
+}
 .gridtrilhas{
     min-width: 98vw;
 
     display: grid;
     grid-template-columns: repeat(12, 8.22vw);
+    grid-template-rows:repeat(3, 1fr);
 }
