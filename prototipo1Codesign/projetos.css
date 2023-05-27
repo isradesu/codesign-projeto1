@@ -12,13 +12,33 @@ html{
 }
 
 body{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 98vw;
     background-color: var(--white);
 }
 
-.gridprojetos{
-    min-width: 98vw;
-    
-    display: grid;
-    grid-template-columns: 7.2vw 18.38vw 3.37vw 18.38vw 3.37vw 18.38vw 3.37vw 18.38vw 7.2vw;
-    
-}  
+.return{
+    width: 7.04vw;
+    height: 16.74vw;
+}
+
+.return > img{
+    width: 4.08vw;
+    margin-left: 2.71vw;
+    margin-top: 3.06vw
+}
+
+.header{
+    width: 83.76vw;
+}
+
+.bloco1{
+    width: 7.04vw;
+    height: 16.74vw;
+}
+
+.bloco2{
+    width: 7.04vw;
+    height: 100vh;
+}
