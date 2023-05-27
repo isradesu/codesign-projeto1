@@ -19,7 +19,7 @@ html{
 /*1920px = 98vw
 SEMPRE USAR VW, usando calc de regra de 3*/
 body{
-    background-image: url(source/fundo_verticall.png);
+    background-image: url(../source/fundo_verticall.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

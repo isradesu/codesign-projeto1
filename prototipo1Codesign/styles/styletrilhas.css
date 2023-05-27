@@ -19,7 +19,7 @@ html{
 SEMPRE USAR VW, usando calc de regra de 3*/
 body{
     background-color: var(--lightgrey);
-    background-image: url(source/bgtrilhas.png);
+    background-image: url(../source/bgtrilhas.png);
     background-size: cover;
     background-repeat: no-repeat;
     
