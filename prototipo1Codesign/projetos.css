@@ -9,6 +9,7 @@
 
 html{
     --white: #E9E9E9;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -34,6 +35,16 @@ body{
     height: 16.74vw;
 }
 
+.header > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.34vw;
+    font-weight: 600;
+    margin-top: 8.78vw;
+    
+}
+
+
+
 .bloco1{
     width: 7.15vw;
     height: 16.74vw;
@@ -57,6 +68,36 @@ body{
 .main > .nav{
     width: 83.81vw;
     height: 3.68vw;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 7.68vw;
+}
+
+.nav > div{
+    width: 18.38vw;
+    height: 2.65vw;
+    font-weight: 600;
+    font-size: 1.33vw;
+    /*border-bottom: black solid;
+    border-bottom-style:groove*/
+}
+
+#nav_design > #lowerline{
+    margin-top: 1.02vw;
+    min-width: 18.38vw;
+    height: 0.3vw;
+    display: block;
+    background-color: black;
+    border-radius: 300px;
+}
+
+#nav_design > p{
+    margin-left: 6.64vw;
 }
 
 .main > .content{
