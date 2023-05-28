@@ -155,6 +155,16 @@ align-items: center;*/
     height: 5.72vw;
     background-color: transparent;
 }
+#botaoprojetos{
+    width: 3.98vw;
+    height: 5.72vw;
+    background-color: transparent;
+}
+#botaoegressos{
+    width: 3.98vw;
+    height: 5.72vw;
+    background-color: transparent;
+}
 
 #cachorrocol8row33{
     grid-column-start: 8;
