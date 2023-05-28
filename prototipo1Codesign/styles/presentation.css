@@ -79,17 +79,22 @@ align-items: center;*/
 
 #arrow{
     grid-column-start: 6;
+    width: 6.02vw;
+    height: 3.42vw;
     grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 4;
     margin-left: 5.2vw; /*REVISAR ESSE MARGIN*/
 }
 
-#arrow > img{
+#botaoscrollprabaixo > img{
     width: 6.02vw;
+    height: 3.42vw;
 }
 #botaoscrollprabaixo{
     background-color: transparent;
+    width: 6.02vw;
+    height: 3.42vw;
 }
 
 #textorow7col2{
