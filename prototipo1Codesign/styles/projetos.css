@@ -52,8 +52,8 @@ body{
 #balaoprojetos{
     width: 33.94vw;
     height: 6.79vw;
-    margin-left: 36.65vw;
-    margin-top: -12.91vw;
+    margin-left: 36.95vw;
+    margin-top: -11.45vw;
 }
 
 #balaoprojetos > img{
@@ -67,6 +67,18 @@ body{
     height: 3.22vw;
     margin-top: -5.4vw;
     margin-left: 1.84vw;
+}
+
+#cachorroprojetos{
+    width: 10.36vw;
+    height: 9.7vw;
+    margin-left: 71.92vw;
+    margin-top: -12.45vw;
+}
+
+#cachorroprojetos > img{
+    width: 10.36vw;
+    height: 9.7vw;
 }
 
 
