@@ -23,15 +23,9 @@ body{
     width: 7.04vw;
     height: 16.74vw;
     background-color: transparent;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    margin-left: 1vw;
-    margin-top: 1vw;
 }
 
-.return > img{
+#botaovoltar > img{
     width: 4.08vw;
     margin-left: 2.71vw;
     margin-top: 3.06vw
@@ -39,16 +33,32 @@ body{
 }
 
 .header{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
     width: 83.81vw;
     height: 16.74vw;
 }
 
 .header > h1{
+    width: 24.04vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 4.34vw;
     font-weight: 600;
     margin-top: 8.78vw;
     
+}
+
+#balaoprojetos{
+    width: 33.94vw;
+    height: 6.79vw;
+    margin-left: 36.65vw;
+    margin-top: -12.91vw;
+}
+
+#balaoprojetos > img{
+    width: 33.94vw;
+    height: 6.79vw;
 }
 
 
