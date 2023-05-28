@@ -88,6 +88,9 @@ align-items: center;*/
 #arrow > img{
     width: 6.02vw;
 }
+#botaoscrollprabaixo{
+    background-color: transparent;
+}
 
 #textorow7col2{
     color: white;
