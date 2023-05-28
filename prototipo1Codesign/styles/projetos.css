@@ -22,12 +22,20 @@ body{
 .return{
     width: 7.04vw;
     height: 16.74vw;
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 1vw;
+    margin-top: 1vw;
 }
 
 .return > img{
     width: 4.08vw;
     margin-left: 2.71vw;
     margin-top: 3.06vw
+    
 }
 
 .header{
@@ -114,4 +122,13 @@ body{
     width: 18.38vw;
     padding-bottom: 3.37vw;
     
+}
+#botaovoltar{
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 1vw;
+    margin-top: 1vw;
 }
