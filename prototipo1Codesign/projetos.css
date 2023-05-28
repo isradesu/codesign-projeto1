@@ -31,16 +31,32 @@ body{
 }
 
 .header{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
     width: 83.81vw;
     height: 16.74vw;
 }
 
 .header > h1{
+    width: 24.04vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 4.34vw;
     font-weight: 600;
     margin-top: 8.78vw;
     
+}
+
+#balaoprojetos{
+    width: 33.94vw;
+    height: 6.79vw;
+    margin-left: 36.65vw;
+    margin-top: -12.91vw;
+}
+
+#balaoprojetos > img{
+    width: 33.94vw;
+    height: 6.79vw;
 }
 
 
