@@ -19,6 +19,10 @@ body{
     background-color: var(--white);
 }
 
+button{
+    cursor: pointer;
+}
+
 .return{
     width: 7.04vw;
     height: 16.74vw;
@@ -111,6 +115,7 @@ body{
 .nav{
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     padding-bottom: 7.68vw;
@@ -125,6 +130,8 @@ body{
     border-bottom-style:groove*/
 }
 
+
+
 #nav_design > #lowerline{
     margin-top: 1.02vw;
     min-width: 18.38vw;
@@ -136,6 +143,43 @@ body{
 
 #nav_design > p{
     margin-left: 6.64vw;
+}
+
+#nav_sistemas > p{
+    margin-left: 5.8vw;
+}
+
+#nav_jogos > p{
+    margin-left: 6.6vw;
+}
+
+#nav_animacao > p{
+    margin-left: 5.2vw;
+}
+
+#nav_sistemas > #lowerline{
+    margin-top: 1.02vw;
+    min-width: 18.38vw;
+    height: 0.3vw;
+    display: block;
+    background-color: black;
+    border-radius: 300px;
+}
+#nav_jogos > #lowerline{
+    margin-top: 1.02vw;
+    min-width: 18.38vw;
+    height: 0.3vw;
+    display: block;
+    background-color: black;
+    border-radius: 300px;
+}
+#nav_animacao > #lowerline{
+    margin-top: 1.02vw;
+    min-width: 18.38vw;
+    height: 0.3vw;
+    display: block;
+    background-color: black;
+    border-radius: 300px;
 }
 
 .main > .content{

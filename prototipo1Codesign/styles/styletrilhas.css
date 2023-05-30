@@ -25,6 +25,10 @@ body{
     
 }
 
+button{
+    cursor: pointer;
+}
+
 .gridtrilhas{
     min-width: 98vw;
     height: 55.13vw;

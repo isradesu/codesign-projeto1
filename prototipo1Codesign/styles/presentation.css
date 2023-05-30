@@ -24,6 +24,10 @@ body{
     background-repeat: no-repeat;
 }
 
+button{
+    cursor: pointer;
+}
+
 .grid{
     min-height: 392vw;
     min-width: 98vw;
