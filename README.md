@@ -23,4 +23,4 @@ As tecnologias utilizadas são HTML5, CSS3, JavaScript, o framework p5.js para i
 As funções a serem implementadas no futuro são: filtragem de projetos por trilha e animações em p5.js. 
 
 26/05/2023
-No momento atual estamos fazendo a parte Front-End do projeto e passando as telas do Figma para o HTML.
+No momento atual estamos fazendo a parte Front-End do projeto e passando as telas do Figma para o HTML
