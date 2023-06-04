@@ -13,196 +13,135 @@ html{
 }
 
 body{
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 98vw;
     background-color: var(--white);
+    margin-left:7vw;
+    margin-right:7vw;
 }
 
 button{
     cursor: pointer;
-}
-
-.return{
-    width: 7.04vw;
-    height: 16.74vw;
     background-color: transparent;
 }
 
-#botaovoltar > img{
-    width: 4.08vw;
-    margin-left: 2.71vw;
-    margin-top: 3.06vw
-    
+#return{
+    margin-top: 3.125vw;
+    margin-left:-4vw;
 }
 
-.header{
+#but-back > img{
+    width: 4.08vw;
+}
+
+header{
     display: grid;
     grid-template-columns: repeat(3 1fr);
     grid-template-rows: repeat(3 1fr);
-    width: 83.81vw;
-    height: 16.74vw;
 }
 
-.header > h1{
-    width: 24.04vw;
+#character-content {
+    display: flex;
+    width: 33.94vw;
+    height: 6.79vw;
+}
+
+#character-content h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 4.34vw;
-    font-weight: 600;
-    margin-top: 8.78vw;
-    
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin-top:4vw;
 }
 
-#balaoprojetos{
-    width: 33.94vw;
-    height: 6.79vw;
-    margin-left: 36.95vw;
-    margin-top: -11.45vw;
+#bubble {
+    margin-left:18vw;
 }
 
-#balaoprojetos > img{
-    width: 33.94vw;
+#bubble img{
+    width: 34.63vw;
     height: 6.79vw;
 }
 
-#balaoprojetos > p{
+#bubble > p{
     font-size: 1.33vw;
     width: 29.14vw;
     height: 3.22vw;
-    margin-top: -5.4vw;
-    margin-left: 1.84vw;
+    margin-top: -5.2vw;
+    margin-left: 1.92vw;
 }
 
-#cachorroprojetos{
-    width: 10.36vw;
-    height: 9.7vw;
-    margin-left: 71.92vw;
-    margin-top: -12.45vw;
+#img-dog{
+    width: 10.57vw;
+    height: 9.89vw;
+    margin-left: 1.61vw;
+    margin-top: 2vh;
 }
 
-#cachorroprojetos > img{
-    width: 10.36vw;
-    height: 9.7vw;
+#img-dog > img{
+    width: 10.57vw;
+    height: 9.89vw;
 }
 
-
-
-.bloco1{
-    width: 7.15vw;
-    height: 16.74vw;
+nav {
+    margin-top: 8.5vw;
+    font-size:1.3vw;
 }
 
-.bloco2{
-    width: 7.04vw;
-    height: 100vh;
-}
-
-.bloco3{
-    width: 7.15vw;
-    height: 100vh;
-}
-
-.main{
-    width: 83.81vw;
-    height: 100vh;
-}
-
-.main > .nav{
-    width: 83.81vw;
-    height: 3.68vw;
-}
-
-.nav{
+#menu {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 7.68vw;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 
-.nav > div{
-    width: 18.38vw;
-    height: 2.65vw;
-    font-weight: 600;
-    font-size: 1.33vw;
-    /*border-bottom: black solid;
-    border-bottom-style:groove*/
+.item-menu {
+    padding-bottom:0.5vw;
+    text-align: center;
+    margin-right: 3.43vw;
+    width:18.75vw;
 }
 
-
-
-#nav_design > #lowerline{
-    margin-top: 1.02vw;
-    min-width: 18.38vw;
-    height: 0.3vw;
-    display: block;
-    background-color: black;
-    border-radius: 300px;
+.item-menu:hover {
+    font-weight:bold;
+    border-bottom: 4px solid #000000;
 }
 
-#nav_design > p{
-    margin-left: 6.64vw;
-}
-
-#nav_sistemas > p{
-    margin-left: 5.8vw;
-}
-
-#nav_jogos > p{
-    margin-left: 6.6vw;
-}
-
-#nav_animacao > p{
-    margin-left: 5.2vw;
-}
-
-#nav_sistemas > #lowerline{
-    margin-top: 1.02vw;
-    min-width: 18.38vw;
-    height: 0.3vw;
-    display: block;
-    background-color: black;
-    border-radius: 300px;
-}
-#nav_jogos > #lowerline{
-    margin-top: 1.02vw;
-    min-width: 18.38vw;
-    height: 0.3vw;
-    display: block;
-    background-color: black;
-    border-radius: 300px;
-}
-#nav_animacao > #lowerline{
-    margin-top: 1.02vw;
-    min-width: 18.38vw;
-    height: 0.3vw;
-    display: block;
-    background-color: black;
-    border-radius: 300px;
-}
-
-.main > .content{
-    width: 83.81vw;
-    height: 100vh;
-
+main {
+    margin-top: 3.75vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.content > img{
-    width: 18.38vw;
-    padding-bottom: 3.37vw;
-    
+.content {
+    display: grid;
+    grid-template-columns: 18.75vw 18.75vw 18.75vw 18.75vw;
+    grid-column-gap: 3.43vw;
+    grid-row-gap: 3.43vw;
+    margin-bottom: 3.33vw;
 }
-#botaovoltar{
-    background-color: transparent;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    margin-left: 1vw;
-    margin-top: 1vw;
+
+.card-project {
+    width:18.75vw;
+    height:21.35vw;
+    background-color: white;
+    border-radius: 1.25vw;
+}
+
+.card-project:hover {
+    border:2px solid #000000;
+}
+
+#card-img > img {
+    width:18.7vw;
+    height:13.21vw;
+    border-top-left-radius: 1.25vw;
+    border-top-right-radius: 1.25vw;
+}
+
+#card-text {
+    padding: 0.9vw;
+}
+
+#card-text > p {
+    margin-top: 0.7vw;
 }
