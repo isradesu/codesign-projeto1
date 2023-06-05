@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -7,35 +7,29 @@
 
 }
 
-html{
+html {
     --white: #E9E9E9;
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     background-color: var(--white);
-    margin-left:7vw;
-    margin-right:7vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
 }
 
-button{
+button {
     cursor: pointer;
     background-color: transparent;
 }
 
-#return{
+#return {
     margin-top: 3.125vw;
-    margin-left:-4vw;
+    margin-left: -4vw;
 }
 
-#but-back > img{
+#but-back>img {
     width: 4.08vw;
-}
-
-header{
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: repeat(3 1fr);
 }
 
 #character-content {
@@ -48,41 +42,42 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5vw;
     font-weight: bold;
-    margin-top:4vw;
+    margin-top: 3vw;
 }
 
 #bubble {
-    margin-left:18vw;
+    margin-left: 18vw;
+    margin-top: -5vw;
 }
 
-#bubble img{
+#bubble img {
     width: 34.63vw;
     height: 6.79vw;
 }
 
-#bubble > p{
+#bubble>p {
     font-size: 1.33vw;
     width: 29.14vw;
     height: 3.22vw;
-    margin-top: -5.2vw;
+    margin-top: -5vw;
     margin-left: 1.92vw;
 }
 
-#img-dog{
+#img-dog {
     width: 10.57vw;
     height: 9.89vw;
     margin-left: 1.61vw;
-    margin-top: 2vh;
+    margin-top: -3vw;
 }
 
-#img-dog > img{
+#img-dog>img {
     width: 10.57vw;
     height: 9.89vw;
 }
 
 nav {
-    margin-top: 8.5vw;
-    font-size:1.3vw;
+    margin-top: 5vw;
+    font-size: 1.3vw;
 }
 
 #menu {
@@ -93,19 +88,19 @@ nav {
 }
 
 .item-menu {
-    padding-bottom:0.5vw;
+    padding-bottom: 0.5vw;
     text-align: center;
     margin-right: 3.43vw;
-    width:18.75vw;
+    width: 18.75vw;
 }
 
 .item-menu:hover {
-    font-weight:bold;
+    font-weight: bold;
     border-bottom: 4px solid #000000;
 }
 
 main {
-    margin-top: 3.75vw;
+    margin-top: 3vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -121,19 +116,19 @@ main {
 }
 
 .card-project {
-    width:18.75vw;
-    height:21.35vw;
+    width: 18.75vw;
+    height: 21.35vw;
     background-color: white;
     border-radius: 1.25vw;
 }
 
 .card-project:hover {
-    border:2px solid #000000;
+    border: 2px solid #000000;
 }
 
-#card-img > img {
-    width:18.7vw;
-    height:13.21vw;
+#card-img>img {
+    width: 18.7vw;
+    height: 13.21vw;
     border-top-left-radius: 1.25vw;
     border-top-right-radius: 1.25vw;
 }
@@ -142,6 +137,6 @@ main {
     padding: 0.9vw;
 }
 
-#card-text > p {
+#card-text>p {
     margin-top: 0.7vw;
 }
