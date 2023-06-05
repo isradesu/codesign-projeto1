@@ -123,12 +123,14 @@ main {
 }
 
 .card-project:hover {
-    border: 2px solid #000000;
+    width:20vw;
+    height:22.60vw;
+    border: 0.2vw solid #000000;
 }
 
 #card-img>img {
-    width: 18.7vw;
-    height: 13.21vw;
+    width: 100%;
+    height: 100%;
     border-top-left-radius: 1.25vw;
     border-top-right-radius: 1.25vw;
 }

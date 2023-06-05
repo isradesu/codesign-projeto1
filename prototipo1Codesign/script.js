@@ -13,28 +13,32 @@ var projects = [
       categoryId: 0,
       name: "Projeto 1",
       description: "Este projeto é sobre isso isso isso.",
-      imgUrl: "./source/project.png"
+      imgUrl: "./source/project.png",
+      videoUrl:"https://player.vimeo.com/video/833133518?h=bc4f2a49ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
    },
    {
       id: 1,
       categoryId: 1,
       name: "Projeto 2",
       description: "Este projeto é sobre isso isso isso.",
-      imgUrl: "./source/project.png"
+      imgUrl: "./source/project.png",
+      videoUrl:"https://player.vimeo.com/video/833133518?h=bc4f2a49ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
    },
    {
       id: 2,
       categoryId: 1,
       name: "Projeto 3",
       description: "Este projeto é sobre isso isso isso.",
-      imgUrl: "./source/project.png"
+      imgUrl: "./source/project.png",
+      videoUrl:"https://player.vimeo.com/video/833133518?h=bc4f2a49ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
    },
    {
       id: 3,
       categoryId: 3,
       name: "Projeto 4",
       description: "Este projeto é sobre isso isso isso.",
-      imgUrl: "./source/project.png"
+      imgUrl: "./source/project.png",
+      videoUrl:"https://player.vimeo.com/video/833133518?h=bc4f2a49ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
    }
    ,
    {
@@ -42,14 +46,16 @@ var projects = [
       categoryId: 2,
       name: "Projeto 5",
       description: "Este projeto é sobre isso isso isso.",
-      imgUrl: "./source/project.png"
+      imgUrl: "./source/project.png",
+      videoUrl:"https:/www.youtube.com/embed/pSI7sd_p4Yc"
    },
    {
       id: 5,
       categoryId: 2,
       name: "Projeto 6",
       description: "Este projeto é sobre isso isso isso.",
-      imgUrl: "./source/project.png"
+       imgUrl: "./source/project.png",
+      videoUrl:"https://www.youtube.com/embed/pSI7sd_p4Yc"
    }
 ]
 

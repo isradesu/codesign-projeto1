@@ -39,7 +39,7 @@
       var iframeElement = document.createElement("iframe");
       var iframeContent = document.createElement("div");
       iframeContent.id = "player";
-      iframeElement.src = "https://player.vimeo.com/video/833133518?h=bc4f2a49ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
+      iframeElement.src = projeto['videoUrl'];
       iframeElement.allowfullscreen = true;
 
       var descriptionContent = document.createElement("div");
@@ -47,8 +47,8 @@
       var playerContent = document.createElement("div");
       playerContent.className = "player-content";
       var acess = document.createElement("a");
-      acess.href = "www.youtube.com";
-      acess.textContent = "acesso: lasklakdaldkaslakd";
+      // acess.href = "www.youtube.com";
+      acess.textContent = "Acesso em: www.exemple.com";
       var description = document.createElement("p");
       description.textContent = projeto['description'];
       
