@@ -1,60 +1,39 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    text-decoration: none;
-    box-sizing: border-box;
-
+h3, h4, p, #acess {
+    font-family: 'montserrat', sans-serif;
+    text-align: left;
 }
 
-html {
-    --white: #E9E9E9;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    background-color: var(--white);
-    margin-left: 7vw;
-    margin-right: 7vw;
-}
-
-button {
-    cursor: pointer;
-    background-color: transparent;
-}
-
-#return {
-    margin-top: 3.125vw;
-    margin-left: -4vw;
-}
-
-#but-back>img {
-    width: 4.08vw;
-}
-
-h1 {
-    margin-top: -2vw;
+h3, h1 {
     text-align: center;
 }
 
-#projeto-details {
+h1 {
+    margin: 0;
+    margin-top: 5.92vw;
+    font-family:'Rubik',sans-serif;
+    font-size: 3.38vw;
+}
+
+/* #projeto-details {
     display: grid;
     grid-template-columns: 37.5vw 50.31vw;
     grid-column-gap: 3vw;
     margin-top: 4.73vw;
-}
-
+} */
+/* 
 .description-content {
     width: 50.31vw;
     height: 26.45vw;
     padding: 1.25vw;
     background-color: #E0E0E0;
     border-radius: 1.25vw;
-}
+} */
 
 #player {
-    width: 37.5vw;
-    height: 23.43vw;
+    margin-top: 6.92vw;
+    margin-left: 5vw;
+    width: 70vw;
+    height: 40.20vw;
     border-radius: 1.25vw;
     -moz-border-radius: 1.25vw;
     -webkit-border-radius: 1.25vw;
@@ -67,10 +46,4 @@ iframe {
     /* border-radius: 1.25vw;
     -moz-border-radius: 1.25vw;
     -webkit-border-radius: 1.25vw; */
-}
-
-.player-content {
-    width: 37.5vw;
-    height: 23.43vw;
-    margin-left: 1vw;
 }

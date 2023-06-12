@@ -1,0 +1,72 @@
+body {
+    margin: auto;
+    width: 80vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.global-nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    margin-left: -10vw;
+}
+
+.logo-content {
+    padding: 1vw;
+    width: 5.2vw;
+    height: 2.8vw;
+    margin-left: 10vw;
+}
+
+#smd-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.global-menu {
+    list-style-type: none;
+    display: flex;
+    margin-right: 10vw;
+}
+
+.global-menu-item {
+    padding: 0.2vw;
+    margin-left: 3.38vw;
+    list-style: none;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: larger;
+    text-decoration: none;
+    position: relative;
+}
+
+.global-menu-item::after { /* bolinha */
+    content: "";
+    display: block;
+    width: 0.4vw;
+    height: 0.4vw;
+    background-color: transparent;
+    position: absolute;
+    bottom: -0.26vw;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.global-menu-item.active::after {
+    background-color: white;
+}
+
+.global-menu-item:not(.active):hover {
+    color: #cccccc; 
+}

@@ -1,0 +1,117 @@
+h1 {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.42vw;
+    font-weight: bold;
+    margin-top: 2.96vw;
+}
+
+#character-content {
+    margin-left: 50.43vw;
+    display: flex;
+}
+
+.balloon {
+    position: relative;
+    width: 15.2vw;
+    height: 10vw;
+    background-color: #F2F2F2;
+    border-radius: 0.52vw;
+    padding: 0.52vw;
+    margin-bottom: 1.04vw;
+}
+
+.triangle {
+    margin-left: -0.5vw;
+    margin-top: 7vw;
+    width: 0;
+    height: 0;
+    border-top: 1.04vw solid transparent;
+    border-bottom: 1.04vw solid transparent;
+    border-left: 2.0vw solid #F2F2F2;
+}
+
+.balloon> p {
+    padding: 0.5vw;
+    font-size: 1.35vw;
+    font-family: 'montserrat', sans-serif;
+}
+
+#img-dog {
+    margin-left: 0.1vw;
+    margin-top: 2vw;
+    width: 10.57vw;
+    height: 9.89vw;
+}
+
+#img-dog>img {
+    width: 100%;
+    height: 100%;
+}
+
+#menu {
+    margin-top: 3.6vw;
+    margin-left: -2.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 1.3vw;
+    font-family: 'montserrat', sans-serif;
+}
+
+.item-menu {
+    padding-bottom: 0.5vw;
+    text-align: center;
+    margin-right: 1.66vw;
+    width: 18.75vw;
+}
+
+.item-menu:hover {
+    margin-top: -0.5vw;
+    font-weight: bold;
+    border-bottom: 4px solid #000000;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content {
+    margin-top: 1.5vw;
+    display: grid;
+    grid-template-columns: 18.75vw 18.75vw 18.75vw 18.75vw;
+    grid-column-gap: 1.66vw;
+    grid-row-gap: 3.43vw;
+    margin-bottom: 3.33vw;
+}
+
+.card-project {
+    width: 18.75vw;
+    height: 21.35vw;
+    background-color: white;
+    border-radius: 1.25vw;
+}
+
+.card-project:hover {
+    border: 0.2vw solid #000000;
+}
+
+#card-img>img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1.25vw;
+    border-top-right-radius: 1.25vw;
+}
+
+#card-text {
+    font-family: 'montserrat', sans-serif;
+    padding: 1vw;
+}
+
+#card-text h4 {
+    margin: 0;
+}
