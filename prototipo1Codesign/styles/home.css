@@ -19,6 +19,7 @@ body {
     background-image: url(../images/main_bg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    
 }
 
 button {
@@ -33,6 +34,21 @@ button {
     grid-template-rows: repeat(32, 1fr);
 }
 
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
 #dog {
     grid-column-start: 8;
     grid-column-end: 10;
@@ -40,6 +56,9 @@ button {
     grid-row-end: 4;
     margin-top: 6.66vw;
     margin-left: 2.5vw;
+    animation: float 4s ease-in-out infinite;
+
+    
 }
 
 #dog>img {
@@ -148,15 +167,18 @@ align-items: center;*/
 }
 
 #corujacol4row29 {
-    grid-column-start: 5;
-    grid-row-start: 29;
-    margin-top: 4.2vw;
+    grid-column-start: 7;
+    grid-row-start: 30;
+    margin-left: -6.3vw;
+    margin-top: -2.89vw;
     width: 9.53vw;
     height: 5.72vw;
 }
 
+
+
 #botaotrilhas>img {
-    width: 3.98vw;
+    width: 9.53vw;
 
 }
 
@@ -179,11 +201,12 @@ align-items: center;*/
 }
 
 #cachorrocol8row33 {
-    grid-column-start: 8;
-    grid-row-start: 31;
+    grid-column-start: 5;
+    grid-row-start: 32;
     width: 5.61vw;
     height: 7.66vw;
-    margin-top: 4.8vw;
+    margin-top: -6vw;
+    margin-left: -.5vw;
 }
 
 #botaoprojetos {
@@ -196,10 +219,10 @@ align-items: center;*/
 }
 
 #sapocol10row31 {
-    grid-column-start: 10;
-    grid-row-start: 31;
-    margin-left: 2.5vw;
-    margin-top: 1.8vw;
+    grid-column-start: 11;
+    grid-row-start: 32;
+    margin-left: -5.18vw;
+    margin-top: -6.8vw;
     width: 6.28vw;
     height: 10.67vw;
 }

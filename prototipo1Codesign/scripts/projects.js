@@ -32,8 +32,9 @@ function templateCard(item) {
 
 // ERRO
 function removeAll() {
-   for (child of content[0].children) {
-      child.remove();
+
+   for (var i = 0; i < content[0].children.length; i++) {
+      content[0].children[i].remove();
    }
 }
 
@@ -51,6 +52,7 @@ var menuItems = document.getElementsByClassName('item-menu');
 
 for (var i = 0; i < menuItems.length; i++) {
    menuItems[i].addEventListener("click", function () {
+      console.log(content[0]);
       showList(this.id);
    });
 }
