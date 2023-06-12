@@ -1,61 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
     border: none;
     text-decoration: none;
-    box-sizing: border-box;
-
 }
 
-html{
+html {
     --grey: #404040;
 
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
-    font-size: 62.5%; /* 10px */
+    /* 10px */
     scroll-behavior: smooth;
 
 
 }
+
 /*1920px = 98vw
 SEMPRE USAR VW, usando calc de regra de 3*/
-body{
-    background-image: url(../source/fundo_verticall.png);
-    background-size: cover;
+body {
+    background-image: url(../images/main_bg.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
-.grid{
+.grid {
     min-height: 392vw;
-    min-width: 98vw;
-
+    min-width: 80vw;
     display: grid;
-    grid-template-columns: repeat(12, 8.22vw);
+    grid-template-columns: repeat(12, 6.66vw);
     grid-template-rows: repeat(32, 1fr);
 }
 
-#cachorro{
+#dog {
     grid-column-start: 8;
     grid-column-end: 10;
     grid-row-start: 1;
     grid-row-end: 4;
-    margin-top: 8.22vw;
-    margin-left: 1.17vw;   
+    margin-top: 6.66vw;
+    margin-left: 2.5vw;
 }
 
-#cachorro > img{
+#dog>img {
     min-width: 22.1vw;
     max-width: 22.1vw;
-    
+
 }
 
 /*alinhar elemento no centro da celula
 align-items: center;*/
 
-#balao{
+#balao {
     grid-column-start: 5;
     grid-column-end: 5;
     grid-row-start: 2;
@@ -67,11 +63,11 @@ align-items: center;*/
     width: 21vw;
 }
 
-#balao > img{
+#balao>img {
     width: 21vw;
 }
 
-#balao > p{
+#balao>p {
     color: black;
     max-width: 18.02vw;
     min-width: 18.02vw;
@@ -81,27 +77,29 @@ align-items: center;*/
     font-family: 'Montserrat', sans-serif;
 }
 
-#arrow{
+#arrow {
     grid-column-start: 6;
     width: 6.02vw;
     height: 3.42vw;
     grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 4;
-    margin-left: 5.2vw; /*REVISAR ESSE MARGIN*/
+    margin-left: 5.2vw;
+    /*REVISAR ESSE MARGIN*/
 }
 
-#botaoscrollprabaixo > img{
+#botaoscrollprabaixo>img {
     width: 6.02vw;
     height: 3.42vw;
 }
-#botaoscrollprabaixo{
+
+#botaoscrollprabaixo {
     background-color: transparent;
     width: 6.02vw;
     height: 3.42vw;
 }
 
-#textorow7col2{
+#textorow7col2 {
     color: white;
     grid-column-start: 2;
     grid-column-end: 8;
@@ -113,15 +111,15 @@ align-items: center;*/
     font-weight: 400;
 }
 
-#textorow7col2 > p{
+#textorow7col2>p {
     font-size: 1.84vw;
 }
 
-#textorow7col2 > p > span{
+#textorow7col2>p>span {
     font-size: 3.57vw
 }
 
-#textorow12col6{
+#textorow12col6 {
     color: white;
     grid-column-start: 6;
     grid-column-end: 12;
@@ -131,11 +129,11 @@ align-items: center;*/
     width: 49.97vw;
 }
 
-#textorow12col6 > p{
+#textorow12col6>p {
     font-size: 1.84vw;
 }
 
-#textorow16col2{
+#textorow16col2 {
     color: var(--grey);
     grid-column-start: 2;
     grid-column-end: 9;
@@ -145,40 +143,42 @@ align-items: center;*/
     width: 51.81vw;
 }
 
-#textorow16col2 > p{
+#textorow16col2>p {
     font-size: 1.84vw;
 }
 
-#corujacol4row29{
-    grid-column-start: 5; 
+#corujacol4row29 {
+    grid-column-start: 5;
     grid-row-start: 29;
     margin-top: 4.2vw;
-    width: 3.98vw;
+    width: 9.53vw;
     height: 5.72vw;
 }
 
-#botaotrilhas > img{
+#botaotrilhas>img {
     width: 3.98vw;
-    
+
 }
 
-#botaotrilhas{
-    width: 3.98vw;
-    height: 5.72vw;
-    background-color: transparent;
-}
-#botaoprojetos{
-    width: 3.98vw;
-    height: 5.72vw;
-    background-color: transparent;
-}
-#botaoegressos{
+#botaotrilhas {
     width: 3.98vw;
     height: 5.72vw;
     background-color: transparent;
 }
 
-#cachorrocol8row33{
+#botaoprojetos {
+    width: 3.98vw;
+    height: 5.72vw;
+    background-color: transparent;
+}
+
+#botaoegressos {
+    width: 3.98vw;
+    height: 5.72vw;
+    background-color: transparent;
+}
+
+#cachorrocol8row33 {
     grid-column-start: 8;
     grid-row-start: 31;
     width: 5.61vw;
@@ -186,16 +186,16 @@ align-items: center;*/
     margin-top: 4.8vw;
 }
 
-#botaoprojetos{
+#botaoprojetos {
     width: 5.61vw;
-    height: 7.66vw;    
+    height: 7.66vw;
 }
 
-#botaoprojetos > img{
+#botaoprojetos>img {
     width: 5.61vw;
 }
 
-#sapocol10row31{
+#sapocol10row31 {
     grid-column-start: 10;
     grid-row-start: 31;
     margin-left: 2.5vw;
@@ -204,12 +204,11 @@ align-items: center;*/
     height: 10.67vw;
 }
 
-#botaoegressos{
+#botaoegressos {
     width: 6.28vw;
     height: 10.67vw;
 }
 
-#botaoegressos > img{
+#botaoegressos>img {
     width: 6.28vw;
 }
-

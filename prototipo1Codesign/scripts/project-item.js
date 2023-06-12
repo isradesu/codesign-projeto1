@@ -22,7 +22,8 @@ if (project) {
     var acess = document.getElementById("acess");
 
     iframeElement.src = project['videoUrl'];
-    acess.textContent = project['access'];
+    acess.textContent = project['videoUrl'];
+    acess.href = project['videoUrl'];
     description.textContent = project['description'];
     objective.textContent = project['objective'];
     heldIn.textContent = project['heldIn'];

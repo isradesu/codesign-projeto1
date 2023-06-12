@@ -14,7 +14,7 @@ function templateCard(item) {
    cardTxt.id = "card-text";
 
    name.innerHTML = item['name'];
-   description.innerHTML = item['description'];
+   description.innerHTML = item['descriptionCard'];
    img.src = item['imgUrl'];
 
    card.appendChild(cardImg);
@@ -30,7 +30,7 @@ function templateCard(item) {
    return card;
 }
 
-// ERRO AQUI!!!!!!
+// ERRO
 function removeAll() {
    for (child of content[0].children) {
       child.remove();
@@ -49,11 +49,8 @@ function showList(id) {
 
 var menuItems = document.getElementsByClassName('item-menu');
 
-console.log(menuItems);
-
 for (var i = 0; i < menuItems.length; i++) {
    menuItems[i].addEventListener("click", function () {
-      console.log("oi");
       showList(this.id);
    });
 }
