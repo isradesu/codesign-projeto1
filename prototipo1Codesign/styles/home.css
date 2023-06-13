@@ -205,8 +205,8 @@ align-items: center;*/
     grid-row-start: 32;
     width: 5.61vw;
     height: 7.66vw;
-    margin-top: -6vw;
-    margin-left: -.5vw;
+    margin-top: -4.4vw;
+    margin-left: -2.8vw;
 }
 
 #botaoprojetos {
@@ -214,9 +214,33 @@ align-items: center;*/
     height: 7.66vw;
 }
 
-#botaoprojetos>img {
+#botaoprojetos img {
     width: 5.61vw;
+    height: 11.86vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
 }
+
+#botaoprojetos img.cachorro-normal {
+    opacity: 1;
+    z-index: 1;
+  }
+
+#botaoprojetos img.cachorro-levantando {
+      width: 6.06vw;
+      height: 11.86vw;
+        
+    opacity: 0;
+    z-index: 2;
+  }
+
+#botaoprojetos:hover img.cachorro-normal {
+    opacity: 0;
+  }
+
+#botaoprojetos:hover img.cachorro-levantando {
+    opacity: 1;
+  }
 
 #sapocol10row31 {
     grid-column-start: 11;
