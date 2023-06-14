@@ -1,6 +1,8 @@
-main {
-    margin-left: 5vw;
-    width: 70vw;
+html {
+    background: linear-gradient(180deg, #1F2444 32.81%, #2E265F 64.06%, #3E2F4D 100%);
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 #player {
@@ -10,6 +12,7 @@ main {
     -moz-border-radius: 1.25vw;
     -webkit-border-radius: 1.25vw;
     overflow: hidden;
+    box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.2);
 }
 
 iframe {

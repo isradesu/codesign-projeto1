@@ -6,7 +6,7 @@ function templateCard(item) {
    var card = document.createElement('div');
    var cardImg = document.createElement('div');
    var cardTxt = document.createElement('div');
-   var img = document.createElement('img');
+   var img = document.createElement('iframe');
    var name = document.createElement('h4');
    var description = document.createElement('p');
    card.className = "card-project";
@@ -15,7 +15,9 @@ function templateCard(item) {
 
    name.innerHTML = item['name'];
    description.innerHTML = item['descriptionCard'];
-   img.src = item['imgUrl'];
+   img.src = item['videoUrl'];
+
+   img.frameBorder = 0;
 
    card.appendChild(cardImg);
    cardImg.appendChild(img);
@@ -30,7 +32,6 @@ function templateCard(item) {
    return card;
 }
 
-// ERRO
 function removeAll() {
    for (child of content[0].children) {
       child.remove();
