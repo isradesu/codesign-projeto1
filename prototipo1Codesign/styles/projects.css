@@ -1,5 +1,7 @@
 body {
-    background-color:#dddddd;
+    
+        background-color: #dddddd;
+      
 }
 
 h1 {
@@ -7,6 +9,10 @@ h1 {
     font-size: 4.42vw;
     font-weight: bold;
     margin-top: 2.96vw;
+}
+
+a{
+    color: #FFFFFF;
 }
 
 #character-content {
