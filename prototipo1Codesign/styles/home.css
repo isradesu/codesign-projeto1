@@ -41,13 +41,29 @@ button {
 	}
 	50% {
 		
-		transform: translatey(-20px);
+		transform: translatey(-1vw);
 	}
 	100% {
 		
 		transform: translatey(0px);
 	}
 }
+
+@keyframes float_text {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-.5vw);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
 
 #dog {
     grid-column-start: 8;
@@ -88,6 +104,7 @@ align-items: center;*/
 
 #balao>p {
     color: black;
+    font-weight: 400;
     max-width: 18.02vw;
     min-width: 18.02vw;
     margin-top: -9.5vw;
@@ -167,24 +184,66 @@ align-items: center;*/
 #corujacol4row29 {
     grid-column-start: 7;
     grid-row-start: 30;
-    margin-left: -6.3vw;
-    margin-top: -2.89vw;
+    margin-left: -5.2vw;
+    margin-top: -1.4vw;
     width: 9.53vw;
-    height: 5.72vw;
+    height: 15.72vw;
 }
 
 
 
-#botaotrilhas>img {
-    width: 9.53vw;
 
+
+#botaotrilhas img {
+    width: 5.16vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
 }
+
+#botaotrilhas img.coruja-normal {
+    opacity: 1;
+    z-index: 1;
+  }
+
+#botaotrilhas img.coruja-levantando {
+    width: 9.53vw;
+    margin-left: -2.17vw;
+    margin-top: -.05vw;
+    opacity: 0;
+    z-index: 2;
+  }
+
+#botaotrilhas:hover img.coruja-normal {
+    opacity: 0;
+  }
+
+#botaotrilhas:hover img.coruja-levantando {
+    opacity: 1;
+  }
+
+.ellipsis-text{
+    width: 7.03vw;
+    margin-left: 6.9vw;
+    margin-top: -13.8vw;
+    margin-bottom: 3vw;
+    animation: float_text 1s ease-in-out infinite;
+}
+
+#cachorrocol8row33 > .ellipsis-text{
+    margin-left: 7.9vw;
+    margin-bottom: 2.7vw;
+}
+
+
+
+
 
 #botaotrilhas {
     width: 3.98vw;
     height: 5.72vw;
     background-color: transparent;
 }
+
 
 #botaoprojetos {
     width: 3.98vw;
@@ -198,7 +257,11 @@ align-items: center;*/
     background-color: transparent;
 }
 
+
+
+
 #cachorrocol8row33 {
+    display: inline;
     grid-column-start: 5;
     grid-row-start: 32;
     width: 5.61vw;
@@ -243,8 +306,8 @@ align-items: center;*/
 #sapocol10row31 {
     grid-column-start: 11;
     grid-row-start: 32;
-    margin-left: -5.18vw;
-    margin-top: -6.8vw;
+    margin-left: -7.5vw;
+    margin-top: -6vw;
     width: 6.28vw;
     height: 10.67vw;
 }
@@ -254,6 +317,30 @@ align-items: center;*/
     height: 10.67vw;
 }
 
-#botaoegressos>img {
-    width: 6.28vw;
+
+
+#botaoegressos img {
+    width: 5.83vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
 }
+
+#botaoegressos img.sapo-normal {
+    opacity: 1;
+    z-index: 1;
+  }
+
+#botaoegressos img.sapo-levantando {
+    width: 6.77vw;
+    margin-left: -.05vw;
+    opacity: 0;
+    z-index: 2;
+  }
+
+#botaoegressos:hover img.sapo-normal {
+    opacity: 0;
+  }
+
+#botaoegressos:hover img.sapo-levantando {
+    opacity: 1;
+  }
