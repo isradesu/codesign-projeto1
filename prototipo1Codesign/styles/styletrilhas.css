@@ -1,11 +1,20 @@
 body{
     background-color: var(--lightgrey);
-    background-image: url(../source/bgtrilhas.png);
+    background-image: url(../source/bcktrilhas.png);
     background-size: cover;
     background-repeat: no-repeat;  
 }
 
+
 .gridtrilhas{
+    min-width: 98vw;
+    height: 55.13vw;
+    max-height: 55.13vw;
+    display: none;
+    grid-template-columns: repeat(12, 8.22vw);
+    grid-template-rows:repeat(5, 1fr);
+}
+.gridsistemas{
     min-width: 98vw;
     height: 55.13vw;
     max-height: 55.13vw;
@@ -58,4 +67,10 @@ body{
 #balaotrilhas > #select{
     margin-left: 5.97vw;
     margin-top: 2.50vw;
+}
+#trilhasistemas{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
