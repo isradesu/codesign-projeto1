@@ -35,32 +35,27 @@
   </header>
   <div class="gridtrilhas">
     <div id="corujatrilhas">
-      <img src="../source/coruja padrao.png">
+      <img src="../source/coruja padrao.png" id="corujadastrilhas">
     </div>
     <div id="balaotrilhas">
-      <img src="../source/balaotrilhas.png">
-      <h1>TRILHAS?!</h1>
-      <p>Calma! Eu posso te contar um pouco mais sobre elas, mas antes me ajude a escolher sobre qual falar primeiro...
+      <img src="../source/balaobranco.png">
+      <h1 id="h1dastrilhas">TRILHAS?!</h1>
+      <p id="frasebalaotrilhas">Calma! Eu posso te contar um pouco mais sobre elas, mas antes me ajude a escolher sobre qual falar primeiro...
       </p>
       <p id="select">Selecione algum desses itens</p>
     </div>
-  </div>
-  <div class="gridsistemas">
-    <div id="corujatrilhas">
-      <img src="../source/coruja prog.png">
-    </div>
-    <div id="balaotrilhas">
-      <img src="../source/balaotrilhas.png">
-      <h1>SISTEMAS!</h1>
-      <p>Então, sobre a trilha de sistemas...</p>
-    </div>
-    <div id="trilhasistemas">
-      <img src="../source/trilhasistemas.png">
-     </div>
+      <nav class="localnav-trilhas">
+        <ul id="selecttrilhas" class="localnav-trilhas">
+          <li><a onclick="mudartrilha(1)"><img src="../source/trilhadesign.png"></a></li>
+          <li><a onclick="mudartrilha(2)"><img src="../source/trilhaaudiovisual.png"></a></li>
+          <li><a onclick="mudartrilha(3)"><img src="../source/trilhasistemas.png"></a></li>
+          <li><a onclick="mudartrilha(4)"><img src="../source/trilhajogos.png"></a></li>
+        </ul>
+      </nav>
   </div>
 
 
-  <script src="../trails.js"></script>
+  <script src="../scripts/trails.js"></script>
 </body>
 
 </html>

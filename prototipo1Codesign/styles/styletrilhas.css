@@ -10,19 +10,10 @@ body{
     min-width: 98vw;
     height: 55.13vw;
     max-height: 55.13vw;
-    display: none;
-    grid-template-columns: repeat(12, 8.22vw);
-    grid-template-rows:repeat(5, 1fr);
-}
-.gridsistemas{
-    min-width: 98vw;
-    height: 55.13vw;
-    max-height: 55.13vw;
     display: grid;
     grid-template-columns: repeat(12, 8.22vw);
     grid-template-rows:repeat(5, 1fr);
 }
-
 #corujatrilhas{
     grid-column-start: 8;
     grid-column-end: 10;
@@ -68,9 +59,18 @@ body{
     margin-left: 5.97vw;
     margin-top: 2.50vw;
 }
-#trilhasistemas{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 4;
+.localnav-trilhas{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 5;
     grid-row-end: 5;
+    list-style-type: none;
+}
+#selecttrilhas{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -6.5vw;
+    margin-left: 0.5vw;
 }
