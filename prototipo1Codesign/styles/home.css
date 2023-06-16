@@ -56,7 +56,7 @@ button {
 	}
 	50% {
 		
-		transform: translatey(-.5vw);
+		transform: translatey(-.3vw);
 	}
 	100% {
 		
@@ -64,6 +64,33 @@ button {
 	}
 }
 
+@-webkit-keyframes sdb05 {
+    0% {
+      -webkit-transform: translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform:  translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+@keyframes sdb05 {
+    0% {
+      transform:  translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translate(0, 20px);
+      opacity: 0;
+    }
+  }
+  
 
 #dog {
     grid-column-start: 8;
@@ -107,7 +134,7 @@ align-items: center;*/
     font-weight: 400;
     max-width: 18.02vw;
     min-width: 18.02vw;
-    margin-top: -9.5vw;
+    margin-top: -10.5vw;
     margin-left: 1.6vw;
     font-size: 1.63vw;
 }
@@ -117,9 +144,14 @@ align-items: center;*/
     width: 6.02vw;
     height: 3.42vw;
     grid-column-end: 6;
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-row-end: 4;
-    margin-left: 5.2vw;
+    margin-top: 7vw;
+     margin-left: 2.2vw; 
+    
+    
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
     /*REVISAR ESSE MARGIN*/
 }
 
@@ -185,13 +217,30 @@ align-items: center;*/
     grid-column-start: 7;
     grid-row-start: 30;
     margin-left: -5.2vw;
-    margin-top: -1.4vw;
+    margin-top: -3.9vw;
     width: 9.53vw;
     height: 15.72vw;
 }
 
+.owl_text{
+    grid-column-start: 7;
+    grid-row-start: 30;
+    margin-left: 1.5vw;
+    margin-top: -3.1vw;
+}
 
+.dog_text{
+    grid-column-start: 5;
+    grid-row-start: 32;
+    margin-left: 5.2vw;
+    margin-top: -3vw;
+}
 
+.frog_text{
+    grid-column-start: 11;
+    grid-row-start: 32;
+    margin-top: -3vw;
+}
 
 
 #botaotrilhas img {
@@ -223,20 +272,18 @@ align-items: center;*/
 
 .ellipsis-text{
     width: 7.03vw;
-    margin-left: 6.9vw;
-    margin-top: -13.8vw;
-    margin-bottom: 3vw;
+
     animation: float_text 1s ease-in-out infinite;
 }
 
 #cachorrocol8row33 > .ellipsis-text{
     margin-left: 7.9vw;
-    margin-bottom: 2.7vw;
+    margin-bottom: 5.7vw;
 }
 
 #sapocol10row31 > .ellipsis-text{
-    margin-left: 7.9vw;
-    margin-bottom: 4.3vw;
+    margin-left: 7.2vw;
+    margin-bottom: 8.3vw;
 }
 
 
@@ -266,12 +313,12 @@ align-items: center;*/
 
 
 #cachorrocol8row33 {
-    display: inline;
+    
     grid-column-start: 5;
     grid-row-start: 32;
     width: 5.61vw;
     height: 7.66vw;
-    margin-top: -4.4vw;
+    margin-top: -5.7vw;
     margin-left: -2.8vw;
 }
 

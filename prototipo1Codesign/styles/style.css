@@ -55,13 +55,14 @@ a:visited {
     margin-left: 3.38vw;
     list-style: none;
     color: white;
-    font-size: larger;
+    font-size: 1.67vw;
     text-decoration: none;
     position: relative;
 }
 
 .global-menu-item a {
     font-family: 'Staatliches', cursive;
+    font-size: ;
 }
 
 .global-menu-item::after { /* bolinha */
