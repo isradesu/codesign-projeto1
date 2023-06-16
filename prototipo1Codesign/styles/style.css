@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-body {
+main {
     margin: auto;
     width: 80vw;
 }
@@ -24,16 +24,17 @@ a:visited {
 }
 
 .global-nav {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
-    margin-left: -10vw;
+    /* width: 100vw; */
+    /* margin-left: -10vw; */
 }
 
 .logo-content {
-    padding: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     width: 5.2vw;
     height: 2.8vw;
     margin-left: 10vw;
@@ -55,14 +56,13 @@ a:visited {
     margin-left: 3.38vw;
     list-style: none;
     color: white;
-    font-size: 1.67vw;
+    font-size: larger;
     text-decoration: none;
     position: relative;
 }
 
 .global-menu-item a {
     font-family: 'Staatliches', cursive;
-    font-size: ;
 }
 
 .global-menu-item::after { /* bolinha */
