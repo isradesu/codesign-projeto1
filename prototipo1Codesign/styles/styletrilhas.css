@@ -24,8 +24,12 @@ SEMPRE USAR VW, usando calc de regra de 3*/
     margin-left: 1.17vw; 
 }
 #corujatrilhas > img{
-    width: 22.1vw;
-    
+    max-width: "29.2979166667";
+    max-height:"28.4302083333";
+    min-width: "29.2979166667";
+    min-height:"28.4302083333";
+    margin-top:3.3vw;
+    margin-left:5.2vw;
 }
 #balaotrilhas{
     font-family: 'Montserrat', sans-serif;
