@@ -24,6 +24,9 @@ a:visited {
 }
 
 .global-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
     background-color: rgba(32, 32, 32, 0.3);
     background-blend-mode: multiply;
     display: flex;
@@ -32,8 +35,8 @@ a:visited {
 }
 
 .logo-content {
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding-top: .57vw;
+    padding-bottom: 0.57vw;
     width: 5.2vw;
     height: 2.8vw;
     margin-left: 10vw;
@@ -62,6 +65,7 @@ a:visited {
 
 .global-menu-item a {
     font-family: 'Rubik', sans-serif;
+    
     
 }
 
