@@ -73,7 +73,7 @@ button {
       opacity: 1;
     }
     100% {
-      -webkit-transform:  translate(-20px, 20px);
+      -webkit-transform:  translate(-1.04vw, 1.04vw);
       opacity: 0;
     }
   }
@@ -86,7 +86,7 @@ button {
       opacity: 1;
     }
     100% {
-      transform: translate(0, 20px);
+      transform: translate(0, 2.04vw);
       opacity: 0;
     }
   }
@@ -157,12 +157,12 @@ align-items: center;*/
 #arrow {
     grid-column-start: 6;
     width: 6.02vw;
-    height: 9.42vw;
+    height: 6.42vw;
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
-    margin-top: 5vw;
-     margin-left: 2.2vw; 
+    margin-top: 8vw;
+     margin-left: 1.1vw; 
     
     
     
