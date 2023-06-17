@@ -13,5 +13,9 @@ function mudartrilha(trilha){
     }
     if(ntrilha==4){
       corujadastrilhas.setAttribute("src","../source/coruja jogos.png");
+      corujadastrilhas.style.marginTop="-2.5vw";
+      corujadastrilhas.style.marginLeft="-0.5vw";
+      corujadastrilhas.style.width="27.66453333vw";
+      corujadastrilhas.style.height="33.99375vw";
     }
 }

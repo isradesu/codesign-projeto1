@@ -4,7 +4,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;  
 }
-
+/*1920px = 98vw
+SEMPRE USAR VW, usando calc de regra de 3*/
 
 .gridtrilhas{
     min-width: 98vw;
@@ -23,8 +24,7 @@ body{
     margin-left: 1.17vw; 
 }
 #corujatrilhas > img{
-    min-width: 22.1vw;
-    max-width: 22.1vw;
+    width: 22.1vw;
     
 }
 #balaotrilhas{
@@ -64,6 +64,8 @@ body{
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 5;
+    justify-items: center;
+    justify-content: center;
     list-style-type: none;
 }
 #selecttrilhas{
@@ -72,5 +74,9 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: -6.5vw;
-    margin-left: 0.5vw;
+    
+}
+.localnav-trilhas img{
+    width: 6.5125vw;
+    height: 6.5125vw;
 }
