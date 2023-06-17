@@ -62,6 +62,7 @@ a:visited {
 
 .global-menu-item a {
     font-family: 'Rubik', sans-serif;
+    
 }
 
 .global-menu-item::after { /* bolinha */

@@ -16,9 +16,24 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/home.css">
   <script src="./script.js" defer></script>
+  <script src="scripts/home.js" defer></script>
 </head>
 
 <body>
+  <header>
+  <nav class="global-nav">
+    <div class="logo-content"><a href="../index.html"><img src="source/smd.png" alt="logo do SMD"
+          id="smd-logo"></a></div>
+    <ul class="global-menu-content">
+      <ul class="global-menu">
+        <li class="global-menu-item" alt="projetos"><a href="views/projects.html">PROJETOS</a></li>
+        <li class="global-menu-item" alt="egressos"><a href="views/graduates.html">EGRESSOS</a></li>
+        <li class="global-menu-item" alt="trilhas"><a href="views/trails.html">TRILHAS</a></li>
+        </li>
+      </ul>
+    </ul>
+  </nav>
+</header>
   <main>
     <div class="grid">
 
@@ -31,14 +46,13 @@
           Desce a tela aí, vamos conhecer o SMD!</p>
       </div>
       <div id="arrow">
-        <button id="botaoscrollprabaixo" onclick="scrollarprabaixo()"><img src="./source/arrow.png"></button>
+        <button id="botaoscrollprabaixo" onclick="scrollarprabaixo()"><img src="images/arrow.svg"></button>
       </div>
 
       <div id="corujacol4row29">
         <a href="./views/trails.html">
           <button id="botaotrilhas">
-            <img class="coruja-normal"src="./images/owl_trails.png">
-            <img class="coruja-levantando"src="./images/owl_hover.png">
+            
           </button>
           
         </a>
@@ -50,8 +64,8 @@
       <div id="cachorrocol8row33">
         <a href="./views/projects.html">
           <button id="botaoprojetos">
-            <img class="cachorro-normal" src="./images/dog_projects.png">
-            <img class="cachorro-levantando" src="./images/dog_hover.png">
+            
+            
             
           </button>
         </a>
@@ -63,8 +77,6 @@
       <div id="sapocol10row31">
         <a href="./views/graduates.html">
           <button id="botaoegressos">
-            <img class="sapo-normal" src="./images/frog_graduates.png">
-            <img class="sapo-levantando" src="./images/frog_hover.png">
 
           </button>
         </a>

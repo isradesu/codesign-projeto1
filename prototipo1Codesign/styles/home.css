@@ -91,7 +91,22 @@ button {
     }
   }
   
+  @keyframes coruja {
+    0% { 
+        background-image: url('../images/owl_trails.png'); 
+        opacity: 1;
+    }
 
+    50%{
+        
+        opacity: 0;
+    }
+  
+  100% {     background-image: url('../images/owl_hover.png');
+    
+opacity: 1;}
+  
+  }
 #dog {
     grid-column-start: 8;
     grid-column-end: 10;
@@ -142,28 +157,29 @@ align-items: center;*/
 #arrow {
     grid-column-start: 6;
     width: 6.02vw;
-    height: 3.42vw;
+    height: 9.42vw;
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
-    margin-top: 7vw;
+    margin-top: 5vw;
      margin-left: 2.2vw; 
     
     
-    -webkit-animation: sdb05 1.5s infinite;
-    animation: sdb05 1.5s infinite;
+    
     /*REVISAR ESSE MARGIN*/
 }
 
 #botaoscrollprabaixo>img {
     width: 6.02vw;
     height: 3.42vw;
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
 }
 
 #botaoscrollprabaixo {
     background-color: transparent;
     width: 6.02vw;
-    height: 3.42vw;
+    height: 9.42vw;
 }
 
 #textorow7col2 {
@@ -213,11 +229,39 @@ align-items: center;*/
     font-size: 1.84vw;
 }
 
+#botaotrilhas {
+    width: 5.16vw;
+    height: 6.82vw;
+    background-color: transparent;
+    background-image: url("../images/owl_trails.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.3s ease;
+    
+
+}
+
+#botaotrilhas:hover{
+    
+    width: 9.53vw;
+    height:8.82vw; 
+    margin-top: -1.08vw;
+    margin-left: -2.2vw;
+    animation-name: coruja;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    
+}
+
 #corujacol4row29 {
     grid-column-start: 7;
-    grid-row-start: 30;
-    margin-left: -5.2vw;
-    margin-top: -3.9vw;
+    grid-row-start: 31;
+    margin-left: -2.2vw;
+    margin-top: -13vw;
     width: 9.53vw;
     height: 15.72vw;
 }
@@ -225,15 +269,15 @@ align-items: center;*/
 .owl_text{
     grid-column-start: 7;
     grid-row-start: 30;
-    margin-left: 1.5vw;
+    margin-left: 1.9vw;
     margin-top: -3.1vw;
 }
 
 .dog_text{
     grid-column-start: 5;
     grid-row-start: 32;
-    margin-left: 5.2vw;
-    margin-top: -3vw;
+    margin-left: 4vw;
+    margin-top: -2vw;
 }
 
 .frog_text{
@@ -245,30 +289,12 @@ align-items: center;*/
 
 #botaotrilhas img {
     width: 5.16vw;
-    position: absolute;
+    height: 6.82vw;
+    position: relative;
     transition: opacity 0.3s ease;
 }
 
-#botaotrilhas img.coruja-normal {
-    opacity: 1;
-    z-index: 1;
-  }
 
-#botaotrilhas img.coruja-levantando {
-    width: 9.53vw;
-    margin-left: -2.17vw;
-    margin-top: -.05vw;
-    opacity: 0;
-    z-index: 2;
-  }
-
-#botaotrilhas:hover img.coruja-normal {
-    opacity: 0;
-  }
-
-#botaotrilhas:hover img.coruja-levantando {
-    opacity: 1;
-  }
 
 .ellipsis-text{
     width: 7.03vw;
@@ -290,18 +316,10 @@ align-items: center;*/
 
 
 
-#botaotrilhas {
-    width: 3.98vw;
-    height: 5.72vw;
-    background-color: transparent;
-}
 
 
-#botaoprojetos {
-    width: 3.98vw;
-    height: 5.72vw;
-    background-color: transparent;
-}
+
+
 
 #botaoegressos {
     width: 3.98vw;
@@ -316,83 +334,57 @@ align-items: center;*/
     
     grid-column-start: 5;
     grid-row-start: 32;
+    margin-top: 2vw;
+    margin-left: .3vw;
     width: 5.61vw;
     height: 7.66vw;
-    margin-top: -5.7vw;
-    margin-left: -2.8vw;
+    
+    
 }
 
 #botaoprojetos {
-    width: 5.61vw;
-    height: 7.66vw;
+    width: 4.58vw;
+    height: 9.69vw;
+    background-color: transparent;
+    background-image: url("../images/dog_projects.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.3s ease;
 }
 
 #botaoprojetos img {
     width: 5.61vw;
     height: 11.86vw;
-    position: absolute;
+    
     transition: opacity 0.3s ease;
 }
 
-#botaoprojetos img.cachorro-normal {
-    opacity: 1;
-    z-index: 1;
-  }
 
-#botaoprojetos img.cachorro-levantando {
-      width: 6.06vw;
-      height: 11.86vw;
-        
-    opacity: 0;
-    z-index: 2;
-  }
-
-#botaoprojetos:hover img.cachorro-normal {
-    opacity: 0;
-  }
-
-#botaoprojetos:hover img.cachorro-levantando {
-    opacity: 1;
-  }
 
 #sapocol10row31 {
     grid-column-start: 11;
     grid-row-start: 32;
-    margin-left: -7.5vw;
-    margin-top: -6vw;
+    margin-left: -4.5vw;
+    margin-top: -.5vw;
     width: 6.28vw;
     height: 10.67vw;
 }
 
 #botaoegressos {
-    width: 6.28vw;
-    height: 10.67vw;
-}
-
-
-
-#botaoegressos img {
     width: 5.83vw;
-    position: absolute;
-    transition: opacity 0.3s ease;
+    height: 12.08vw;
+    background-image: url("../images/frog_graduates.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.25s ease;
 }
 
-#botaoegressos img.sapo-normal {
-    opacity: 1;
-    z-index: 1;
-  }
-
-#botaoegressos img.sapo-levantando {
+/*#botaoegressos:hover{
     width: 6.77vw;
-    margin-left: -.05vw;
-    opacity: 0;
-    z-index: 2;
-  }
+    height: 12.08vw;
+    background-image: url("../images/frog_hover.png");
+}
 
-#botaoegressos:hover img.sapo-normal {
-    opacity: 0;
-  }
 
-#botaoegressos:hover img.sapo-levantando {
-    opacity: 1;
-  }
